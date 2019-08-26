@@ -8,6 +8,7 @@ onRequest = (req, res)=>{
     console.log("Incoming requst to " + req.url);
 
     var i = 2;
+    //response headers
     res.writeHead(200, {'Content-Type': 'text/plain'});
 
     setTimeout(()=>{
