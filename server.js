@@ -20,7 +20,7 @@ onRequest = (req, res)=>{
             console.log('Sending response for' + req.url);
             res.end(htmlFile);
         })
-    },5000);
+    },10000);
 
     while(i--){
         console.log('Loop value: ' + i + '\r');
